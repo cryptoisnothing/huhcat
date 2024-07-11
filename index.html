@@ -42,6 +42,7 @@
             width: 100%;
             padding: 0 10px;
             box-sizing: border-box;
+            flex-wrap: wrap;
         }
         .logo {
             width: 48px;
@@ -102,7 +103,7 @@
             display: inline-block;
             padding: 10px 20px;
             margin-top: 20px;
-            background-color: #7e32e1; /* Lila Farbe der Icons */
+            background-color: #7e32e1;
             color: black;
             text-decoration: none;
             border-radius: 5px;
@@ -110,7 +111,17 @@
             transition: background-color 0.3s ease;
         }
         .cta-button:hover {
-            background-color: #6a2bc0; /* Dunklere Variante für Hover-Effekt */
+            background-color: #6a2bc0;
+        }
+        .disclaimer {
+            max-width: 800px;
+            margin: 20px auto;
+            padding: 10px;
+            text-align: center;
+            font-size: 14px;
+            background: rgba(255, 255, 255, 0.1);
+            border-radius: 5px;
+            animation: fadeIn 1s ease-out 2s backwards;
         }
         @media (max-width: 768px) {
             .logo {
@@ -120,6 +131,9 @@
             .content {
                 font-size: 16px;
             }
+            .disclaimer {
+                font-size: 12px;
+            }
         }
     </style>
 </head>
@@ -128,11 +142,14 @@
         <a href="https://dexscreener.com/ethereum/0xa67e9f021b9d208f7e3365b2a155e3c55b27c9f9" target="_blank">
             <img src="https://raw.githubusercontent.com/cryptoisnothing/huhcat/main/dexlogo.png" alt="DexScreener" class="logo">
         </a>
-        <a href="https://twitter.com/HuhCoinEth" target="_blank">
+        <a href="https://x.com/Gracie1432210" target="_blank">
             <img src="https://raw.githubusercontent.com/cryptoisnothing/huhcat/main/xlogo.png" alt="X (Twitter)" class="logo">
         </a>
         <a href="https://t.me/huhgracie" target="_blank">
             <img src="https://raw.githubusercontent.com/cryptoisnothing/huhcat/main/tglogo.png" alt="Telegram" class="logo">
+        </a>
+        <a href="https://www.tiktok.com/@gracie.cat.official" target="_blank"> <!-- Bitte ersetzen Sie '#' durch den korrekten Link -->
+            <img src="https://raw.githubusercontent.com/cryptoisnothing/huhcat/main/ttlogo.png" alt="TikTok" class="logo">
         </a>
     </div>
     <div class="title-image-container">
@@ -142,15 +159,18 @@
     <div class="content">
         <h1>Welcome to $HUH</h1>
         <p>
-            Introducing $GRACIE, the purrfectly hilarious memecoin inspired by the internet's favorite cross-eyed feline, Gracie the "HUH-Cat"! Known on TikTok and Instagram, Gracie's quirky gaze is all about looking at the world from a different angle. Whether you're a crypto enthusiast or just a fan of funny cats, $HUH will leave you saying "HUH?" with a smile. Join the fun and let $HUH bring some feline charm to your crypto wallet. Invest in laughter, invest in $GRACIE!
+            Introducing $GRACIE, the purrfectly hilarious memecoin inspired by the internet's favorite cross-eyed feline, Gracie the "HUH-Cat"! Known on TikTok and Instagram, Gracie's quirky gaze is all about looking at the world from a different angle. Whether you're a crypto enthusiast or just a fan of funny cats, $GRACIE will leave you saying "HUH?" with a smile. Join the fun and let $HUH bring some feline charm to your crypto wallet. Invest in laughter, invest in $GRACIE!
         </p>
-        <a href="https://t.me/huhgracie" class="cta-button">Join Our Community</a>
+        <a href="https://t.me/huhcoinportal" class="cta-button">Join Our Community</a>
     </div>
     <div class="video-container">
         <video autoplay loop muted playsinline>
             <source src="https://raw.githubusercontent.com/cryptoisnothing/huhcat/main/huhcat_video.mp4" type="video/mp4">
             Ihr Browser unterstützt das Video-Tag nicht.
         </video>
+    </div>
+    <div class="disclaimer">
+        <strong>Disclaimer: </strong>"$GRACIE" has no intrinsic value and is for entertainment purposes only. Participate at your own risk.
     </div>
 </body>
 </html>
